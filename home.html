@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+ <style>
+     body{
+         background:url('IMG_7186.jpg')no-repeat;
+         background-size: cover;
+     }
+     li{
+         list-style: none;
+         display: inline-block;
+         padding: 15px;
+         color: white
+     }
+     li a{
+         float: left;
+         margin-left: 250px;
+         font-size: 30px;
+         color: white
+     }
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+</style>
+<body>
+    <div style="  background-color: #de8c16;">
+     <li><a href="home.html">Home</a></li>
+     <li><a href="Blog.html">Blog</a></li>
+     <li><a href="login.html">Login</a></li>
+    </div>
+    <center>
+        <h1>Compare Two Images</h1>
+
+    <p>Click and slide the blue slider to compare two images:</p>
+    
+    <div class="img-comp-container">
+      <div class="img/nature1.jpg">
+        <img src="img/nature2.jpg" width="300" height="200">
+      </div>
+      <div class="img-comp-img img-comp-overlay">
+        <img src="img/nature3.jpg" width="300" height="200">
+      </div>
+    </div>
+    
+    <script src="javascript.js";
+    </center>
+</body>
+</html>

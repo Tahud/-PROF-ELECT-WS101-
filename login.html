@@ -4,66 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
 <style>
-body{
-    background:url('nature.jpg')no-repeat;
-    background-size: cover;
-}
-li{
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-}
-li a{
-    float: left;
-    margin-left: 250px;
-    font-size: 30px;
-    color: rgb(5, 6, 14);
-}
-.login-box{
-    opacity: .9;
-    margin: 120px;
-    width: 260px;
-    height: 270px;
-    box-sizing: border-box;
-    color: white;
-    margin-left: 530px;
-    background-color:#37cac2;
-}
-p{
-    font-size: 20px;
-}
-.login-box input[type="submit"]{
-    border: none;
-    outline: none;
-    width: 160px;
-    background: #0ae7dc;
-    color: rgb(22, 108, 236);
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 5px;
-}
-.login-box input[type="submit"]:hover{
+        body{
+            background:url('IMG_7186.jpg')no-repeat;
+            background-size: cover;
+        }
+        .java{
+            margin: 0px;
+            padding: 8px;
+            background-color:#de8c16;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px;
+            color: white
+        }
+        li a{
+            float: left;
+            margin-left: 250px;
+            font-size: 30px;
+            color: white;
+        }
+        .login-box{
+            font-size: 12px;
+            opacity: .8;
+            margin: 90px;
+            width: 280px;
+            height: 330px;
+            padding: 5px;
+            box-sizing: border-box;
+            color: white;
+            border-radius: 50px;
+            margin-left: 530px;
+            background-color:#de8c16;
+        }
+        p{
+            font-size: 20px;
+        }
+        .login-box input{
+            padding: 8px;
+            font-size: 15px;
+        }
+        .login-box input[type="submit"]{
+            font-family: 'Times New Roman', Times, serif;
+            border: none;
+            outline: none;
+            width: 220px;
+            background: black;
+            color:yellow;
+            font-size: 25px;
+            padding: 8px;
+        }
+        .login-box input[type="submit"]:hover{
+            cursor: pointer;
+            background: yellow;
+            color: #000;
 
-    cursor: pointer;
-    background: #37cac2;
-    color: #000;
-
-}
-</style>
+        }
+   
+   </style>
 <body>
-        <div style="  background-color: #16c5de;">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+        <div class="java">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Blog.html">Blog</a></li>
                 <li><a href="login.html">Login</a></li>
         </div>
 
         <div class="login-box">
             <center>
-            <h1>Login here</h1>
+            <h1>Login Here</h1>
             <p>Username</p> 
             <input type="text" name="" placeholder="Enter Username">
             <p>Password</p>
